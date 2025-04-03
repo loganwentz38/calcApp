@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="white">#FFFFFF</color>
+        <color name="button_background">#1976D2</color>  <!-- Replace with your desired color -->
+        <!-- Add other colors you might need -->
+
+    <style name="CalculatorButton" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/button_background</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+</resources>
